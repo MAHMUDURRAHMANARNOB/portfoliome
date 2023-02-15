@@ -130,6 +130,10 @@ h6 {
   margin-left: 300px;
 }
 
+#mainPort {
+  margin-left: 0px;
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -692,18 +696,21 @@ section {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
+.portfolio-description {
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
+  border-radius: 20dp;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
-  padding: 0;
+.portfolio-description p {
+  padding: 10;
 }
 
 /*--------------------------------------------------------------
@@ -1106,6 +1113,18 @@ section {
   left: 0;
   bottom: 0;
   width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#footerPort {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   z-index: 9999;
   background: #040b14;
 }
